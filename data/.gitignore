@@ -1,0 +1,12 @@
+# .gitignore for dataset folder
+###################
+
+# ignore all files in this dir...
+*
+
+# ... except for this one.
+!.gitignore
+
+# and also small sample graph data
+!karate.edgelist
+!karate.emb
