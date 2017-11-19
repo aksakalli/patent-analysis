@@ -18,7 +18,7 @@ function download {
   file=$1".zip"
   echo downloading $file
 
-  wget -N "http://www.patentsview.org/data/20170307/"$file
+  wget -N "http://www.patentsview.org/data/20170808/"$file
 
   echo uziping $file
   unzip -o $file
